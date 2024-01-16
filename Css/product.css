@@ -1,0 +1,146 @@
+
+ /* start fe-product  */
+ .fe-productses {
+    padding: 40px 80px;
+    margin: 40px 0;
+    overflow: auto;
+
+
+
+   }
+   .semmeller h1,
+   .semmeller P{
+    text-align: center;
+   }
+   .fe-productses .content{
+    display: grid;
+    grid-template-columns: repeat(auto-fill , minmax(300px , 1fr));
+    gap: 23px; 
+   }
+   .fe-productses .content .fe-box{
+    padding: 10px;
+    border-radius: 12px;
+    border: 1px solid #e0dede;
+    transition: 0.3s;
+   }
+   .fe-productses .content .fe-box:hover{
+    box-shadow: 0 5px 15px rgb(0, 0, 0, 0.06);
+   }
+   .fe-productses .content .fe-box:hover h5{
+    color: #088178;
+   }
+   .fe-productses .content .fe-box img{
+    width: 100%;
+    height: 320px;
+    border-radius: 12px;
+  
+   }
+   @media (max-width:995px) {
+    .fe-productses .content .fe-box img{
+     height: 250px;
+   }
+    }
+    @media (max-width:767px) {
+      .fe-productses .content .fe-box img{
+     height: 290px;
+   }
+  }
+   .fe-productses .content .fe-box P{
+    text-align: start;
+    margin: 20px 10px 10px;
+    font-size: 15px;
+  
+   }
+   .fe-productses .content .fe-box h5{
+    margin-bottom: 10px;
+    margin-left: 10px;
+    font-size: 16px;
+   }
+   .fe-productses .fe-box .info{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 10px;
+    padding-right: 10px;
+   }
+   .fe-productses .fe-box .info .icon{
+    margin-bottom: 10px;
+   }
+   
+   .fe-productses .fe-box .info span{
+    font-weight: bold;
+    color: #088178;
+    
+   }
+   
+   .fe-productses .fe-box .info > i{
+    color: #088178;
+    font-size: 18px;
+    padding: 10px 10px;
+    border-radius: 50%;
+    background-color: #68bdb746;
+    cursor: pointer;
+    transition: 0.3s;
+   }
+   .fe-productses .fe-box .info > i:hover{
+    color: white;
+    background-color: #088178;
+   }
+  @media (max-width:995px) {
+    .fe-productses{
+      padding:20px ;
+    }
+    .fe-productses .content{
+      display: grid;
+      grid-template-columns: repeat(auto-fill , minmax(200px , 1fr));
+      gap: 20px;
+     }
+    
+  }
+
+
+  .alert{
+    background-color: white;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    text-align: center;
+    padding: 30px 140px;
+    border-radius: 12px;
+    box-shadow: 1px 2px 11px rgb(69, 68, 68);
+    margin: 10px;
+    display: none;
+
+  }
+  .alert i{
+    font-size: 70px;
+    padding: 20px 27px;
+    border-radius: 50%;
+    color: #05ee11f4;
+    border:  5px solid #27ff012e;
+  }
+  .alert h2{
+    margin-top: 40px;
+    font-size: 35px;
+    color: #343434dc;
+  }
+  .alert p{
+    margin-top: 25px;
+    font-size: #777;
+  }
+  .alert button{
+    margin-top: 20px;
+    cursor: pointer;
+    border: 0;
+    outline: 0;
+    font-size: 20px;
+    color: white;
+    background-color:#8cd4f5 ;
+    padding: 10px 40px;
+    border-radius: 10px;
+  }
+  .alert button:hover{
+    background-color:#88ccec ;
+  }
+ 

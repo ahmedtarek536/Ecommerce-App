@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <link rel="stylesheet" href="product.html">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cart</title>
+    <!-- css file  -->
+    <link rel="stylesheet" href="Css/style.css">
+    <!-- font aswome  -->
+    <link rel="stylesheet" href="./Css\all.min.css">
+    <!-- google font  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Borel&family=Cairo:wght@300;400;700&family=Climate+Crisis&family=Noto+Sans+Vithkuqi:wght@500;600;700&family=Oswald:wght@400;700&family=Raleway&family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,400;1,500;1,700;1,900&family=Work+Sans:ital,wght@0,200;0,400;0,500;0,700;1,600;1,800&display=swap" rel="stylesheet">
+</head>
+
+<body class="body2">
+
+
+<!-- start header  -->
+<section id="header">
+    <a href="#"><img src="https://github.com/tech2etc/Build-and-Deploy-Ecommerce-Website/blob/main/img/logo.png?raw=true" class="logo" alt=""></a>
+    <i id="bar" class="fa-solid fa-bars" style="color: #000000;"></i>
+    <div>
+        <ul id="navbar">
+            <i id="close-nav" class="fa-solid fa-xmark"></i>
+            <li><a href="index.html" >Home</a></li>
+            <li><a href="shop.html">Shop</a></li>
+            <li><a href="blog.html" >Blog</a></li>
+            <li><a href="about.html" >About</a></li>
+            <li><a href="contact.html" >Contact</a></li>
+            <li><a href="cart.html" class="active"><i class="fa-solid fa-bag-shopping"></i></a></li>
+        </ul>
+    </div>
+ </section>
+ <!-- end header  -->
+
+ <div id="about">
+      <!-- start text  -->
+<section class="text-shop">
+    <h2>Cart</h2>
+    <p>Add your coupon code & Save upto 70%!</p>
+</section>
+<!-- endt text  -->
+ </div>
+
+
+
+
+
+ <section class="cart">
+     <!-- start tabel  -->
+ <div class="responsive-table">
+ <table  class="cartTabel">
+  
+  <thead>
+    <tr id="main">
+      <th>REMOVE</th>
+      <th>IMAGE</th>
+      <th>PRODUCT</th>
+      <th>PRICE</th>
+      <th>QUANTITY</th>
+      <th>SUBTOTAL</th>
+    </tr>
+  </thead>
+
+
+  <tbody class="Addtbody">
+
+
+
+    <!-- <tr >
+        <td></td>
+      <td><i class="fa-solid fa-xmark"></i></td>
+      <td><img src="https://github.com/tech2etc/Build-and-Deploy-Ecommerce-Website/blob/main/img/products/f3.jpg?raw=true" alt=""></td>
+      <td>Cartoon Astronaut T-Shirt 3</td>
+      <td>$<span>318.19</span></td>
+      <td><input type="number" value="1"></td>
+      <td>$<P>118.19</P></td>
+        
+    </tr> -->
+  
+
+
+
+  </tbody>
+
+
+        
+
+ </table>
+ </div>
+  <!-- end tabel  -->
+
+  <!-- start cart total -->
+  <div class="total">
+    <div class="coupon">
+      <h4>Apply Coupon</h4>
+      <div class="inputs">
+        <input type="text" placeholder="Enter Your Coupon">
+        <button>Apply</button>
+      </div>
+    </div>
+    <div class="cartTotals">
+      <h4>Cart Totals</h4>
+      <table border="1px">
+        <tr>
+          <td>Cart Subtotal</td>
+          <td>$ <span id="topValue" >0</span></td>
+        </tr>
+        <tr>
+          <td>Shipping</td>
+          <td>Free</td>
+        </tr>
+        <tr  class="last">
+          <td >Total</td>
+          <td>$ <span id="lastValue" >0</span></td>
+        </tr>
+      </table>
+      <button>Proceed to checkout</button>
+    </div>
+
+  </div>
+  <!-- end cart total -->
+ </section>
+
+
+
+
+
+ <!-- start sign up email  -->
+<section class="signUp">
+  <div class="info">
+      <h4>Sign Up For Newsletters</h4>
+      <p>Get E-mail updates about our latest shop and <span>special offers</span></p>
+  </div>
+  <form action="">
+      <input type="email" placeholder="Your email address">
+      <button>Sign Up</button>
+  </form>
+</section>
+<!-- end sign up email  -->
+
+
+ <!-- start footer  -->
+<section class="footer">
+  <div class="contactFooter">
+      <img src="https://github.com/tech2etc/Build-and-Deploy-Ecommerce-Website/blob/main/img/logo.png?raw=true" alt="">
+      <h5>Contact</h5>
+       <p><span>Address:</span> 562/wellington Road Street 32 San Franciso</p>
+       <p><span>Phone<:</span> +01222 365/(+19) 01234567 899</p> 
+       <p><span>Hours:</span> 10:00 -18.00 Mon - Sat</p>
+      <h5 class="h5">Follow Us</h5>
+      <div class="icon">
+          <i class="fa-brands fa-facebook-f"></i>
+          <i class="fa-brands fa-twitter"></i>
+          <i class="fa-brands fa-instagram"></i>
+          <i class="fa-solid fa-phone"></i>
+          <i class="fa-brands fa-youtube"></i>
+      </div>
+  </div>
+
+  <div class="about">
+      <h5>About</h5>
+      <p>About Us</p>
+      <p>Delivery Information</p>
+      <p>Privacy Policy</p>
+      <p>Term & Conditions</p>
+      <p>Contact Us</p>
+  </div>
+  <div class="account">
+      <h5>My Account</h5>
+      <p>Sign In</p>
+      <p>View Cart|</p>
+      <p>My Wishlist</p>
+      <p>Track My Order</p>
+      <p>Help</p>
+  </div>
+  <div class="app">
+      <h5>Install App</h5>
+      <p>From App Sore or Google Play</p>
+      <div class="download">
+          <img src="https://img2.storyblok.com/800x0/smart/f/172930/1002x402/f218c1c226/app-store.png" class="appStore" alt="">
+          <img src="https://img2.storyblok.com/800x0/smart/f/172930/1002x402/f9d9e2bc8d/play-store.png" alt="">
+      </div>
+      <p>Secured Payment Gateways</p>
+      <div class="images">
+          <img src="https://tse2.mm.bing.net/th?id=OIP.yukuixomCUSsay42BccZtgHaEK&pid=Api&P=0&h=180" alt="">
+          <img src="https://tse2.mm.bing.net/th?id=OIP.zeRTxpEsrjvlKPWbIlwwagHaEK&pid=Api&P=0&h=180" alt="">
+          <img src="https://tse3.mm.bing.net/th?id=OIP.L6AMbNZfw-YmBiPWoenMUgHaEa&pid=Api&P=0&h=180" alt="">
+          <img src="https://tse3.mm.bing.net/th?id=OIP.tt-mZ05ZyUPcf5EtFz5kmQHaDQ&pid=Api&P=0&h=180" alt="">
+      </div>
+  </div>
+</section>
+<p class="copy-right"><i class="fa-regular fa-copyright"></i> 2023 - Made By <i class="fa-solid fa-heart" style="color: #0055ff;"></i> Roney  -  Ecommerce Template</p>
+<!-- end footer  -->
+
+
+
+
+
+
+
+
+
+
+    <!-- file js  -->
+    <script src="java script/cart.js" ></script>
+    <script src="java script/commerce.js"></script>
+</body>
+
+</html>
