@@ -70,7 +70,7 @@ function showproduct(i){
     localStorage.setItem("numproduct",i)
 
     setTimeout(() => {
-        window.open("https://ahmedtarek536.github.io/test/product.html"); 
+        window.open("https://ahmedtarek536.github.io/Ecommerce-App/product.html"); 
     }, 1000);
  
 
