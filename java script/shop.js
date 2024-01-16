@@ -23,7 +23,7 @@ let content =   document.querySelector("#conentProduct");
 
 
     var datpro;
-    fetch('https://ahmedtarek536.github.io/EcommerceApp/data.json')
+    fetch('https://ahmedtarek536.github.io/Ecommerce-App/data.json')
     .then(response => response.json())
     .then(data => {
         datpro = data
