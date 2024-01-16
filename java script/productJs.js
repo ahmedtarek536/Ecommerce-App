@@ -213,7 +213,7 @@ function searchData() {
     localStorage.setItem("numproduct",i)
 
     setTimeout(() => {
-        window.open("file:///D:/web/E%20comrce/product.html" ,"_self"); 
+        window.open("https://ahmedtarek536.github.io/test/product.html" ,"_self"); 
     }, 100);
  
 
