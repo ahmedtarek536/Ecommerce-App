@@ -240,11 +240,13 @@ body {
  .fe-product P{
   text-align: center;
  }
- .fe-product .content{
+
+  
+  .fe-product .content{
   display: grid;
   grid-template-columns: repeat(auto-fill , minmax(280px , 1fr));
   gap: 23px;
-  /* background-color: red; */
+  
  }
  .fe-product .content .fe-box{
   padding: 10px;
@@ -332,6 +334,8 @@ body {
 
   }
 }
+
+
  /* start text  */
  .text{
   background-image: url("https://github.com/tech2etc/Build-and-Deploy-Ecommerce-Website/blob/main/img/banner/b2.jpg?raw=true");
@@ -534,8 +538,12 @@ outline: 0;
  .navSearch input{
   width: fit-content;
   margin-right: 80px;
+ }}
+@media (max-width: 388px) {
+ .navSearch input{
+  width: 140px;
+  margin-right: 80px;
  }
-  
 }
 /* end the search */
  .text-shop{
