@@ -2,9 +2,9 @@
  /* start fe-product  */
  
  .fe-productses {
-    padding: 40px 80px;
-    margin: 40px 0;
-    overflow: auto;
+    padding: 40px 60px;
+    /* margin: 40px 0; */
+    /* overflow: auto; */
    }
    .semmeller h1,
    .semmeller P{
@@ -13,10 +13,10 @@
    .fe-productses .content{
     display: grid;
     grid-template-columns: repeat(auto-fill , minmax(280px , 1fr));
-    gap: 23px; 
+    gap:13px; 
    }
    .fe-productses .content .fe-box{
-    
+   
     padding: 10px;
     border-radius: 12px;
     border: 1px solid #e0dede;
@@ -38,6 +38,9 @@
     .fe-product{
       padding:20px ;
     }
+    .fe-productses {
+      padding: 40px 30px;
+    }
     .fe-product .content{
       display: grid;
       grid-template-columns: repeat(auto-fill , minmax(240px , 1fr));
@@ -46,6 +49,10 @@
     
   }
   @media (max-width:767px) {
+   .fe-product{
+    padding: 10px 10px ;
+   }
+
     .fe-product .content{
       grid-template-columns: repeat(auto-fill , minmax(225px , 1fr));
   
