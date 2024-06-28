@@ -16,7 +16,7 @@ function ProvideContext({ children }) {
 
   useEffect(function () {
     async function getProducts() {
-      const res = await fetch(`/data.json`);
+      const res = await fetch(`https://ahmedtarek536.github.io/Ecommerce-App/data.json`);
       const data = await res.json();
       setProducts(data);
       setAllProducts(data);
